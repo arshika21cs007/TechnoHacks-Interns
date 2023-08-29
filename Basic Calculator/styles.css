@@ -1,0 +1,55 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b0abab;
+    margin:50px;
+}
+
+.Mathematicaltool {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.display {
+    background-color: #444;
+    border: 1px solid #777;
+    padding: 10px;
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.btn {
+    width: 61px;
+    height: 45px;
+    font-size: 20px;
+    margin: 5px;
+    background-color: #555;
+    border: 1px solid #777;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    color: #fff;
+}
+.btn:hover {
+    background-color: #444;
+}
+
+#btn-equals {
+    background-color: #3712f3;
+    color: #fff;
+}
+
+#btn-equals:hover {
+    background-color: #110951;
+}
