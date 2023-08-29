@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrollment Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Enrollment Form</h1>
+        </div>
+        <div class="main-section">
+            <form class="form" id="form" onsubmit="return validate()">
+                <div>
+                    <label for="fullname">Formal name:</label><br>
+                    <input type="text" id="fullname" placeholder="Enter full name" required autocomplete="off">
+                    <div class="errorClass" id="error-name"></div>
+                </div>
+                <div>
+                    <label for="email">Email ID:</label><br>
+                    <input type="text" id="email" placeholder="Enter email address" required autocomplete="off">
+                    <div class="errorClass" id="error-email"></div>
+                </div>
+                <div>
+                    <label for="password">Secret key:</label><br>
+                    <input type="password" id="password" placeholder="Enter password" required>
+                    <div class="errorClass" id="error-pass"></div>
+                </div>
+                <div>
+                    <label for="password">Confirm Secret key:</label><br>
+                    <input type="password" id="c-password" placeholder="Enter password again" required>
+                    <div class="errorClass" id="error-cpass"></div>
+                </div>
+                <input type="submit" id="button" value="Submit">
+            </form>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</script>
+</body>
+</html>
