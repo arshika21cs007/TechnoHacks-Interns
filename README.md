@@ -2,6 +2,15 @@
 # Internship Projects
 
 **Completed Tasks During Internship: Basic Calculator, Currency Converter, and Registration Form**
+<p align="center">
+  <img src="Calculator.png" width="500" height="350" style="display: inline-block; margin: 0 10px;"  alt="Image 1">
+  <img src="Currency Converter.png"width="500" height="350" style="display: inline-block; margin: 0 10px;" alt="Image 2">
+</p>
+
+<p align="center">
+  <img src="Registration Form.png" width="500" height="350" style="display: inline-block; margin: 0 10px;" " alt="Centered Image">
+</p>
+
 
 ## Overview
 
