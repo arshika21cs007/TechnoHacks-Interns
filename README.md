@@ -33,7 +33,7 @@ During my internship, I successfully completed several projects to enhance my pr
   - Converts between multiple currencies.
   - Retrieves real-time exchange rates using an external API.
   - User-friendly interface for input and conversion.
-- **Technologies Used:** HTML, CSS, JavaScript, API Integration
+- **Technologies Used:** HTML, CSS, JavaScript
 
 ### 3. Registration Form
 
